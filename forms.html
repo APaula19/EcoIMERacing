@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+ 
+<html>
+   <head>
+       <meta charset='utf-8'>
+       <title>Processo Seletivo</title>
+       <link rel="stylesheet" href="forms.css">
+       <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+        </style>
+   </head>
+ 
+   <body>
+        <header>
+            <div class="logo">
+                <a href="Homepage.html">
+                    <img src="imagens/Asset 36 SF.png" alt="LogoECOIME" height="70px" style="animation: rotation 2s infinite linear;">
+                </a>
+            </div>
+            <div class="links">
+                <a href="QuemSomos.html" style="color: #ebf3e2; text-decoration: none;">Quem somos</a> 
+                <a href="areas.html" style="color: #ebf3e2; text-decoration: none;">Áreas</a>
+                <a href="Competicoes.html" style="color: #ebf3e2; text-decoration: none;">Competições</a>
+                <a href="#Footer" style="color: #ebf3e2; text-decoration: none;">Contato</a>
+            </div>
+        </header>
+
+       <main>
+           <div class="box">
+               <div class="titulo">
+                   <p>Processo Seletivo</p>
+               </div>
+               <form class="forms">
+                   <label for="nome" class="letras">Nome completo:</label><br>
+                   <input type="text" id="nome"><br><br>
+                   <label for="idade" class="letras">Idade:</label><br>
+                   <input type="text" id="idade"><br><br>
+
+                   <label for="turma" class="letras">Selecione sua turma:</label><br>
+                   <select id="turma">
+                       <option value="" disabled selected hidden></option>
+                       <option value="XXII">XXII</option>
+                       <option value="XXIII">XXIII</option>
+                       <option value="XXIV">XXIV</option>
+                       <option value="XXV">XXV</option>
+                       <option value="XXVI">XXVI</option>
+                   </select><br>
+
+                   <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="Ativa" name="Opção" value="Ativa">
+                        <label class="form-check-label letras" for="Ativa">Ativa</label>
+                   </div>
+                   
+                   <div style="margin-left: 1em" class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" id="Reserva" name="Opção" value="Reserva">
+                    <label class="form-check-label letras" for="Reserva">Reserva</label>
+                   </div>
+
+                   <br>
+                   <label for="turma" class="letras">Selecione sua Seção de Ensino:</label><br>
+                   <select id="turma">   
+                        <option value="" disabled selected hidden></option>
+                        <option value="SE/1">SE/1</option>
+                        <option value="SE/2">SE/2</option>
+                        <option value="SE/3">SE/3</option>
+                        <option value="SE/4">SE/4</option>
+                        <option value="SE/5">SE/5</option>
+                        <option value="SE/6">SE/6</option>
+                        <option value="SE/7">SE/7</option>
+                        <option value="SE/8">SE/8</option>
+                        <option value="SE/9">SE/9</option>
+                   </select><br>
+
+                   <label for="turma" class="letras">Selecione a área de interesse:</label><br>
+                   <select id="turma">   
+                        <option value="" disabled selected hidden></option>
+                        <option value="Mecânica">Mecânica</option>
+                        <option value="Elétrica">Eletrônica</option>
+                        <option value="Computação">Computação</option>
+                        <option value="Marketing">Marketing</option>
+                   </select><br>
+
+                   <label for="email" class="letras">Digite seu e-mail:</label><br>
+                   <input type="text" id="email"><br><br>
+
+                   <label for="interesse" class="letras">Diga o motivo de você querer entrar na iniciativa:</label><br>
+                   <input type="text" id="interesse" size="100" maxlength="500" placeholder="No máximo 500 caracteres"><br><br>
+
+                   <button class="enviar" type="button" onclick="alert('Inscrição feita com sucesso! Aguarde um email para saber a data da próxima capacitação da equipe.')">Enviar!</button>
+               </form>
+            </div>
+           
+       </main>
+
+       <footer>
+        <img src="imagens/Asset 38 .png" class="rodape" alt="footer">
+       <div class="containerfooter1" id="Footer">
+           <p><Strong>Endereço:</Strong> Praça General Tibúrcio, 80 - Urca, Rio de Janeiro - RJ, CEP 22290270</p>
+           <p><a href="tel:+5521989323782" style="color: #ebf3e2; text-decoration: none;"><strong>Telefone:</strong> (21) 98932-3782</a></p>
+           <p><a href="mailto:ecoime.racing@gmail.com" style="color: #ebf3e2; text-decoration: none;"><strong>E-mail:</strong> ecoime.racing@gmail.com</a></p>
+       </div>
+       <div class="containerfooter2">
+        <a href="https://www.instagram.com/ecoime.racing/">
+            <img src="imagens/instagram.svg" alt="Instagram">
+        </a>
+        <a href="https://www.facebook.com/EcoIMERacing/">
+            <img src="imagens/facebook.svg" alt="Facebook">
+        </a>
+        <a
+            href="https://br.linkedin.com/company/eco-ime?trk=public_profile_experience-item_profile-section-card_image-click">
+            <img src="imagens/linkedin.svg" alt="LinkedIn">
+        </a>
+       </div>
+   </footer>
+   </body>
+</html>
